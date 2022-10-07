@@ -3,7 +3,7 @@ package com.example.cryptocurrencyapp.di
 import com.example.cryptocurrencyapp.common.Constants
 import com.example.cryptocurrencyapp.data.remote.CoinPaprikaApi
 import com.example.cryptocurrencyapp.domain.repository.CoinRepository
-import com.example.cryptocurrencyapp.domain.repository.CoinRepositoryImpl
+import com.example.cryptocurrencyapp.data.repository.CoinRepositoryImpl
 import com.example.cryptocurrencyapp.domain.use_case.get_coins.GetCoinsUseCase
 import com.example.cryptocurrencyapp.presentation.coin_list.CoinListViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel

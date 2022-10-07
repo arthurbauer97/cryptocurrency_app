@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.cryptocurrencyapp.common.ViewState
 import com.example.cryptocurrencyapp.domain.use_case.get_coins.GetCoinsUseCase
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 
@@ -39,8 +40,6 @@ class CoinListViewModel(
                     )
                 }
             }
-
         }.launchIn(viewModelScope)
     }
-
 }
